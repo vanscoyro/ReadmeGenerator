@@ -38,9 +38,9 @@ _______________________________________________________________
 ### TABLE OF CONTENTS 
 _______________________________________________________________
 * [Description](#description)
-* [License](#license)
+* [License](#license-)
 * [Installation](#installation-instructions)
-* [Main Language](#main-language)
+* [Main Language](#main-language-)
 * [Contribution Policy](#contribution-policy)
 * [Test Case](#test-cases)
 * [Contact Me](#contact-me)
