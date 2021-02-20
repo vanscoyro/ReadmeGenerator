@@ -53,6 +53,17 @@ const questions = [
         name: "license",
     },
     {
+        type: "list",
+        message:"Please select the main language of this project",
+        choices : [
+            "javascript",
+            "html5",
+            "css3",
+            "node.js",
+        ],
+        name: "language",
+    },
+    {
         type: "input",
         message:"Please provide information for any Test Cases",
         name: "testCase",
