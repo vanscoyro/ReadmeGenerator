@@ -10,28 +10,27 @@ _______________________________________________________________
 ### Description 
 * ${description}
   
-#### License : 
+### License : 
 <img src='https://img.shields.io/badge/license-${license}-blue' alt="license-badge">
   
 * Info on license: https://opensource.org/licenses/${license}
 _______________________________________________________________
-#### Installation Instructions:
+### Installation Instructions:
 * ${directions}
 
 _______________________________________________________________
 
-#### Main Language : 
+### Main Language : 
 * ${language}
 <img src = "https://img.shields.io/badge/${language}%20-%2343853D.svg" alt="language-badge">
 
-#### Contribution Policy: 
+### Contribution Policy: 
 * ${contributions}
 _______________________________________________________________
 ### Test Cases:
 * ${testCase}
 _______________________________________________________________
-### Questions? 
-#### Contact Me \n
+### Contact Me \n
 <img src='https://img.shields.io/badge/github-${gitHubUserName}-orange' alt="github-badge">\n
 * https://github.com/${gitHubUserName}
 * ${contact}
@@ -39,11 +38,11 @@ _______________________________________________________________
 ### TABLE OF CONTENTS 
 _______________________________________________________________
 * [Description](#description)
-* [License](#license--)
-* [Installation](#installation-instructions-)
-* [Main Language](#main-language--)
-* [Contribution Policy](#contribution-policy-)
-* [Test Case](#test-cases-)
+* [License](#license)
+* [Installation](#installation-instructions)
+* [Main Language](#main-language)
+* [Contribution Policy](#contribution-policy)
+* [Test Case](#test-cases)
 * [Contact Me](#contact-me)
 
 
