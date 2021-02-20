@@ -66,7 +66,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(fileName, data, error =>{
+        if (error){
+            return console.log(error)
+        }else{
+            console.log("readme generated sucessfully")
+        }
+    })
 }
 
 // function to initialize program
