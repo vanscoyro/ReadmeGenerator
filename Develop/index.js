@@ -7,6 +7,11 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: "input",
+        message: "What is your project's title?",
+        name : "title",
+    },
+    {
+        type: "input",
         message: "What is your name?",
         name : "name",
     },
@@ -20,11 +25,7 @@ const questions = [
         message: "What is your email?",
         name : "contact",
     },
-    {
-        type: "input",
-        message: "What is your project's title?",
-        name : "title",
-    },
+
     {
         type: "input",
         message: "Please give a brief description of your project",
@@ -41,7 +42,7 @@ const questions = [
         name: "contributions",
     },
     {
-        type: "input",
+        type: "list",
         message:"What kind of license should your project have?",
         choices : [
             "Apache",
@@ -51,15 +52,10 @@ const questions = [
         ],
         name: "license",
     },
-
     {
-        type: "list",
-        message:"Would you like to add a section for Test cases?",
-        choices : [
-            "Yes",
-            "No,"
-        ],
-        name: "testCaseQuestion",
+        type: "input",
+        message:"Please provide information for any Test Cases",
+        name: "testCase",
     },
 
 ];
@@ -77,7 +73,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then(function(answers){
+        const response = generateMarkdown(answers)
+        writeToFile("README.md", response)
+    })
 }
 
 // function call to initialize program
