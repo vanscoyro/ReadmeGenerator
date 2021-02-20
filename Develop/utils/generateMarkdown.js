@@ -39,12 +39,12 @@ _______________________________________________________________
 ### TABLE OF CONTENTS 
 _______________________________________________________________
 * [Description](#description)
-* [License](#license)
-* [Installation](#directions)
-* [Main Language](#language)
-* [Contribution Policy](#contributions)
-* [Test Case](#testCase)
-* [Questions?](#questions)
+* [License](#license--)
+* [Installation](#installation-instructions-)
+* [Main Language](#main-language--)
+* [Contribution Policy](#contribution-policy-)
+* [Test Case](#test-cases-)
+* [Contact Me](#contact-me)
 
 
 
